@@ -37,7 +37,7 @@ class SecondFragment : Fragment() {
         webView.settings.domStorageEnabled = true
         webView.settings.javaScriptEnabled = true
 
-        webView.loadUrl("https://beatoapp.com/sugargpt/sendbird.php")
+        webView.loadUrl("file:///android_asset/embed-widget.html");
     }
 
     override fun onDestroyView() {
